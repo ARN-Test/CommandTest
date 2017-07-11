@@ -29,6 +29,7 @@ public class P_1 extends javax.swing.JFrame {
         TimeS = new javax.swing.JSlider();
         jLabel1 = new javax.swing.JLabel();
         TimerVV = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(0, 0, 0));
@@ -79,6 +80,8 @@ public class P_1 extends javax.swing.JFrame {
 
         TimerVV.setText("0 Second");
 
+        jButton1.setText("Test");
+
         javax.swing.GroupLayout Panel_1Layout = new javax.swing.GroupLayout(Panel_1);
         Panel_1.setLayout(Panel_1Layout);
         Panel_1Layout.setHorizontalGroup(
@@ -103,11 +106,17 @@ public class P_1 extends javax.swing.JFrame {
                                 .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Panel_1Layout.createSequentialGroup()
                                     .addComponent(TimeS, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addGap(117, 117, 117)))))))
+            .addGroup(Panel_1Layout.createSequentialGroup()
+                .addGap(99, 99, 99)
+                .addComponent(jButton1)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         Panel_1Layout.setVerticalGroup(
             Panel_1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(Panel_1Layout.createSequentialGroup()
-                .addGap(72, 72, 72)
+                .addGap(20, 20, 20)
+                .addComponent(jButton1)
+                .addGap(29, 29, 29)
                 .addGroup(Panel_1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(Restart, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(Shutdown, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -216,6 +225,7 @@ public class P_1 extends javax.swing.JFrame {
     private javax.swing.JButton Shutdown;
     private javax.swing.JSlider TimeS;
     private javax.swing.JLabel TimerVV;
+    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
 }
